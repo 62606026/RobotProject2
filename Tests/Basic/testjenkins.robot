@@ -4,10 +4,10 @@ Library    Selenium2Library
 *** Variables ***
 ${browser}    chrome
 ${url}    https://www.google.co.th/
-${expected_result}     กิริยา 3 ช่อง
+${expected_result}     กริยา 3 ช่อง
 
 *** Keywords ***
-openbrowser
+open google.com
     Open Browser     ${url}     ${browser}
 search keywords
     Input Text    name=q    ${expected_result}
@@ -18,7 +18,7 @@ close browser
     Close Browser
 *** Test Cases ***
 Search case
-   openbrowser
+   open google.com
    search keywords
    wait result
    close browser
