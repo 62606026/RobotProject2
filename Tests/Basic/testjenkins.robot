@@ -14,11 +14,17 @@ search keywords
     Submit Form
 wait result
     Wait Until Page Contains    ${expected_result}
-close browser
+close
     Close Browser
+
 *** Test Cases ***
 Search case
    open google.com
    search keywords
    wait result
-   close browser
+   close
+search test
+   open google.com
+   search keywords
+   wait result
+   close
