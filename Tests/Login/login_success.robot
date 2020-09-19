@@ -1,7 +1,7 @@
 *** Settings ***
 Suite Setup    Open Application Browser    ${BLANK}
 Suite Teardown    Close Browser
-Resource    ../Resources/LOGIN.robot
+Resource    ../../Resources/LOGIN.robot
 
 *** Variables ***
 ${BLANK}
