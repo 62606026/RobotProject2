@@ -22,6 +22,3 @@ Search case
    ค้นหาตาม keywords
    รอผลลัพธ์
    ปิด browser
-   เปิดเว็บ google.com
-   ค้นหาตาม keywords
-   รอผลลัพธ์
